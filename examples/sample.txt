@@ -1,0 +1,14 @@
+Operating Systems and Lossless Data Compression
+================================================
+
+In computer science and information theory, Huffman coding is a particular type of optimal prefix code that is commonly used for lossless data compression. The process of finding or using such a code proceeds by means of Huffman's algorithm, developed by David A. Huffman while he was a Sc.D. student at MIT, and published in the 1952 paper "A Method for the Construction of Minimum-Redundancy Codes".
+
+The output from Huffman's algorithm can be viewed as a variable-length code table for encoding a source symbol (such as a character in a file). The algorithm derives this table from the estimated probability or frequency of occurrence for each possible value of the source symbol. As in other entropy encoding methods, more common symbols are generally represented using fewer bits than less common symbols.
+
+Huffman's method can be efficiently implemented, finding a code in time linear to the number of input weights if these weights are sorted. However, even when input weights are not sorted, optimal code construction requires O(n log n) time using a priority queue (min-heap).
+
+Characteristics of Huffman Codes:
+- Prefix Property: No code is a prefix of any other code, ensuring unambiguous decoding.
+- Optimality: Minimizes the expected length of a code word when probabilities are powers of two or in general among symbol-by-symbol prefix codes.
+- Applications: Used in DEFLATE (PKZIP, gzip), JPEG, MP3, and many operating system file systems.
+
