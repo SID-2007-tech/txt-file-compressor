@@ -55,7 +55,7 @@ project/
 
 ```bash
 # Build the main executable (bin/huffman)
-make all
+make all or make
 
 # Build and run the test suite
 make test

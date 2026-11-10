@@ -5,13 +5,13 @@
 1. COMPILATION
 --------------------------------------------------------------------------------
 Open a terminal in the root directory of this project:
-    cd "/home/john-doe/Desktop/College (2)/sem3/Operating system/project"
+    cd "file_path to txt-file-compressor"
 
 To compile the application:
-    make all
+    make or make all {After running the first step and execution of make clean}
 
 This will compile the C++17 source code and generate the executable at:
-    bin/huffman
+    ./bin/huffman
 
 (Optional) To run the automated unit and integration tests:
     make test
